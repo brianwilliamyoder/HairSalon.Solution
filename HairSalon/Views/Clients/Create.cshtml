@@ -10,6 +10,10 @@
 {
   @Html.LabelFor(model => model.ClientName)
   @Html.TextBoxFor(model => model.ClientName)
+  <br>
+  @Html.LabelFor(model => model.ClientNote, "Enter a note:")
+  @Html.TextBoxFor(model => model.ClientNote)
+  <br>
  
  @Html.LabelFor(model => model.Stylist)
  @Html.DropDownList("StylistId")
