@@ -9,6 +9,6 @@ namespace HairSalon.Models
     public int StylistId { get; set; }
     [DisplayName("Enter the name of the stylist:")]
     public string StylistName { get; set; }
-    public List<Client> Items { get; set; }
+    public List<Client> Clients { get; set; }
   }
 }
