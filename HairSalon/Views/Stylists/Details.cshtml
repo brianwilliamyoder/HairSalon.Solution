@@ -10,7 +10,7 @@
 
 @if (@Model.Clients.Count == 0)
 {
-  <h3>No clients have been assigned to this stylist</h3>
+  <h3>No clients have been assigned to @Html.DisplayFor(model => model.StylistName).</h3>
 }
 else
 {
@@ -22,3 +22,7 @@ else
     }
   </ul>
 }
+
+
+<p>@Html.ActionLink("Add new client", "Create", "Clients")</p>
+<p>@Html.ActionLink("Back to list of stylists", "Index")</p>
