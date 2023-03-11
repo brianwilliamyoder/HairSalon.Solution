@@ -14,9 +14,12 @@
 
   @Html.LabelFor(model => model.ClientName)
   @Html.EditorFor(model => model.ClientName)
-
+  <br>
+  @Html.LabelFor(model => model.ClientNote, "Enter a note:")
+  @Html.EditorFor(model => model.ClientNote)
+  <br>
   @Html.LabelFor(model => model.Stylist)
-  @Html.DropDownList("CategoryId")
+  @Html.DropDownList("StylistId")
 
   <input type="submit" value="Save" />
 }
