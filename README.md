@@ -31,7 +31,7 @@
 * That's it for this part!
 
 ## Setting up appsettings.json
-* In the terminal navigate to the root level of the project directory
+* In the terminal navigate to the project directory "HairSalon".
 * Next, will add the file. In the terminal, enter the following:
   - $ touch appsettings.json
 * Open the file in the code editor, and enter the following:
