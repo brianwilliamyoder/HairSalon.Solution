@@ -36,6 +36,7 @@
   - $ touch appsettings.json
 * Open the file in the code editor, and enter the following:
   ```json
+  {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Port=3306;database=[YOUR DATABASE NAME];uid=[YOUR USER ID];pwd=[YOUR PASSWORD];"
     }
