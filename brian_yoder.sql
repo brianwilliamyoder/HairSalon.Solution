@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.27, for macos11 (x86_64)
 --
--- Host: localhost    Database: Hair_Salon
+-- Host: localhost    Database: Brian_Yoder
 -- ------------------------------------------------------
 -- Server version	8.0.27
 
